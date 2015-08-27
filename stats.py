@@ -1,5 +1,5 @@
 def mean(vals):
-	total = sum(float(vals))
+	total = float(sum((vals)))
 	lenght = len(vals)
 	return total/lenght 
 #def test_mean():

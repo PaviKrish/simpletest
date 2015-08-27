@@ -3,7 +3,10 @@ def mean(vals):
 	lenght = len(vals)
 	return total/lenght 
 def std(vals):
-	return 1.0
+    if len(vals) == 0:
+		return 0.0
+	
+	return vals[-1]/2
 	
 	
 	

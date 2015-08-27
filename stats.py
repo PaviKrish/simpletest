@@ -1,4 +1,4 @@
-def mean(vals):
+def mean(float(vals)):
 	total = sum(vals)
 	lenght = len(vals)
 	return total/lenght 
